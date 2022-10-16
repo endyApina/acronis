@@ -70,7 +70,7 @@ func writeLine(line []int) error {
 	return w.Flush()
 }
 
-//sort array using the fast algorithm. Quick Array
+//sort array using quick sort algorithm
 func sortArray(arr []int) []int {
 	if len(arr) < 2 {
 		return arr
